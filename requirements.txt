@@ -1,0 +1,10 @@
+transformers>=4.41.0
+accelerate
+bitsandbytes; platform_system != "Windows"
+torch
+sentence-transformers
+datasets
+trl
+fastapi
+uvicorn
+qwen-vl-utils; python_version >= "3.10"
