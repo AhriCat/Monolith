@@ -1,0 +1,12 @@
+name: web_qa_example
+metric: success_rate
+instructions: |
+  Answer the user question using available tools. Provide citations when you browse.
+seed: 42
+cases:
+  - id: 1
+    task: chat
+    prompt: "Summarize the main idea of reinforcement learning in 3 sentences."
+  - id: 2
+    task: code
+    prompt: "Write a Python function to compute the nth Fibonacci number iteratively."
